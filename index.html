@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17151e">
+  <meta name="description" content="An interactive journey through bodily change, external expectations and the unseen work of care.">
+  <title>The Unheard Tide · Interactive Experience</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/tide-narrow.otf" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="assets/home-poster.webp" as="image">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app" class="app">
+    <header class="topbar">
+      <button id="home-button" class="wordmark" aria-label="Return to the entrance">THE UNHEARD TIDE<span class="wordmark-dot">·</span></button>
+      <span class="topbar-caption">INTERACTIVE EXPERIENCE</span>
+      <div class="toolbar">
+        <button id="sound-button" class="tool-button sound-button" aria-pressed="true" title="Mute sound" aria-label="Mute sound"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10v4h4l5 4V6l-5 4H4Z"/><path class="sound-wave" d="M16 9c1.3 1.7 1.3 4.3 0 6m2.8-8.5c3 3 3 8 0 11"/></svg><span>Sound on</span></button>
+        <button id="hints-button" class="tool-button" aria-pressed="false" title="Show or hide object labels" aria-label="Show or hide object labels"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6" height="6"/><rect x="14" y="4" width="6" height="6"/><rect x="4" y="14" width="6" height="6"/><rect x="14" y="14" width="6" height="6"/></svg><span>Objects</span></button>
+        <button id="help-button" class="tool-button" title="How to explore" aria-label="How to explore"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M10 9a2 2 0 1 1 3 1.7c-1 .5-1 1-1 2M12 16h.01"/></svg><span>Guide</span></button>
+        <button id="fullscreen-button" class="tool-button" title="View fullscreen" aria-label="View fullscreen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4H4v4m12-4h4v4M4 16v4h4m12-4v4h-4"/></svg></button>
+      </div>
+    </header>
+    <section class="screen" aria-label="Interactive scene">
+      <div id="stage" class="stage" data-scene="home">
+        <img id="scene-poster" class="scene-poster" src="assets/home-poster.webp" alt="Pink islands and everyday objects floating on a sunset sea" fetchpriority="high">
+        <div id="hotspots" class="hotspots"></div>
+        <div id="cards" class="cards" aria-label="Revealed symbols"></div>
+        <div id="home-overlay" class="home-overlay">
+          <p class="eyebrow">BODY · EXPECTATION · CARE</p>
+          <h1>THE UNHEARD<br>TIDE</h1>
+          <p class="home-subtitle">Let unheard experiences rise to the surface.</p>
+          <button id="enter-button" class="enter-button">Enter the tide <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M6 5h13v13"/></svg></button>
+          <p class="home-note"><span></span>Click objects to uncover what lies beneath the everyday.</p>
+        </div>
+        <section id="body-story" class="body-story" hidden aria-label="The story behind The Unheard Tide">
+          <button id="story-close" class="story-close" aria-label="Close the story">×</button>
+          <p class="eyebrow">01 / THE BODY</p>
+          <h2>The unheard experience</h2>
+          <p id="story-text">I grew up surrounded by women, and from an early age, I witnessed the physical and emotional difficulties associated with menopause. Hot flashes, insomnia, fatigue, and emotional fluctuations were often endured in silence, with many believing that this was simply a natural burden they had to accept. What affected me most was not only their discomfort, but how easily it was dismissed. Physiological changes were frequently misunderstood as personality problems, leaving many women feeling unseen and unsupported.</p>
+          <button id="story-next" class="text-link">Explore expectations <span>→</span></button>
+        </section>
+        <video id="transition-film" class="transition-film" muted playsinline preload="none" aria-hidden="true"></video>
+        <video id="transition-film-buffer" class="transition-film" muted playsinline preload="none" aria-hidden="true"></video>
+        <div id="transition-hud" class="transition-hud" hidden>
+          <span id="transition-label" class="transition-label" role="status" aria-live="polite"></span>
+          <button id="transition-skip" class="transition-skip">Skip <span>→</span></button>
+          <div class="transition-progress" aria-hidden="true"><span id="transition-progress-fill"></span></div>
+        </div>
+      </div>
+    </section>
+    <section id="experience-controls" class="experience-controls" hidden>
+      <div class="scene-caption">
+        <div class="caption-main"><span id="scene-index" class="scene-index">01</span><div><h2 id="scene-title"></h2><p id="scene-description"></p></div></div>
+        <div class="scene-actions"><span id="scene-count" class="scene-count"></span><button id="reveal-button" class="outline-button">Reveal all <span>＋</span></button><button id="reset-button" class="reset-button" title="Reset the current scene">Reset ↺</button></div>
+      </div>
+      <div id="object-tray" class="object-tray" aria-label="Interactive objects"></div>
+      <div id="mobile-inspector" class="mobile-inspector" hidden></div>
+      <div class="island-groups" aria-label="Island groups"><span data-island="body">THE BODY</span><button id="expectation-island-link" data-island="expectations" title="Switch between views 02 and 03" aria-label="Switch between views 02 and 03 on the expectation island">EXPECTATION ISLAND <small>02 ↔ 03</small></button><button id="care-island-link" data-island="care" title="Switch between views 04 and 05" aria-label="Switch between views 04 and 05 on the care island">CARE ISLAND <small>04 ↔ 05</small></button></div>
+      <nav id="scene-nav" class="scene-nav" aria-label="Choose a scene"></nav>
+    </section>
+    <footer id="home-footer" class="home-footer"><span>A JOURNEY THROUGH THE UNSEEN</span><span>BODY / EXPECTATION / CARE</span></footer>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <div id="live-announcement" class="sr-only" role="status" aria-live="polite"></div>
+    <audio id="ambient-music" src="assets/ambient-music.mp3" loop preload="metadata"></audio>
+  </main>
+  <dialog id="help-dialog" class="help-dialog">
+    <button id="help-close" class="dialog-close" aria-label="Close the guide">×</button>
+    <p class="eyebrow">HOW TO EXPLORE</p>
+    <h2>Follow the objects.<br>Listen to the tide.</h2>
+    <ol class="instructions">
+      <li><span>01</span><div><strong>Move between scenes</strong><p>Use the navigation below. Camera journeys connect the scenes; choose Skip to move directly to your destination.</p></div></li>
+      <li><span>02</span><div><strong>Explore the objects</strong><p>Click a small marker to reveal its symbol. Click the symbol card to enlarge it, drag left or right to rotate, and read its meaning. Click the object marker again to close its card. Objects toggles the labels.</p></div></li>
+      <li><span>03</span><div><strong>Let experiences surface</strong><p>Reveal all opens every symbol on the current island. Camera motion stops when the island is ready to explore. Reset lets you begin again.</p></div></li>
+    </ol>
+    <p class="help-footnote">On mobile, you can also select object names below the scene. Use Tab and Enter to explore by keyboard, and ← / → to move between scenes.</p>
+    <button id="help-done" class="outline-button">Start exploring <span>↗</span></button>
+  </dialog>
+
+  <dialog id="symbol-dialog" class="symbol-dialog" aria-labelledby="symbol-title" aria-describedby="symbol-description">
+    <button id="symbol-close" class="dialog-close" aria-label="Close the enlarged geometry">×</button>
+    <div class="symbol-dialog-layout">
+      <div class="turntable-panel">
+        <div id="symbol-turntable" class="symbol-turntable" tabindex="0" role="img" aria-label="Drag left or right to rotate the geometry">
+          <canvas id="symbol-canvas" width="640" height="640" aria-hidden="true"></canvas>
+        </div>
+        <div class="turntable-caption"><span>DRAG TO ROTATE</span><span>SCROLL TO ZOOM</span></div>
+      </div>
+      <div class="symbol-copy">
+        <p class="eyebrow">SYMBOL <span id="symbol-number"></span></p>
+        <h2 id="symbol-title"></h2>
+        <p id="symbol-description" class="symbol-description"></p>
+        <div class="rotation-control"><label for="symbol-rotation">Rotation</label><output id="symbol-angle">000°</output></div>
+        <input id="symbol-rotation" class="rotation-slider" type="range" min="0" max="359" step="1" value="0" aria-label="Rotate the geometry">
+        <div class="viewer-actions">
+          <button id="symbol-reset" class="outline-button">Reset view <span>↺</span></button>
+          <div class="viewer-zoom"><button id="symbol-zoom-out" aria-label="Zoom out">−</button><output id="symbol-zoom-level">100%</output><button id="symbol-zoom-in" aria-label="Zoom in">＋</button></div>
+        </div>
+        <p class="viewer-note">Drag left or right, or use the rotation slider. With the geometry focused, use ← / → to rotate and + / − to zoom.</p>
+        <p id="symbol-loading" class="viewer-note" role="status"></p>
+      </div>
+    </div>
+  </dialog>
+  <noscript><div class="noscript-note">Please enable JavaScript to explore the objects and their animated symbols.</div></noscript>
+  <script type="module" src="app.mjs"></script>
+</body>
+</html>

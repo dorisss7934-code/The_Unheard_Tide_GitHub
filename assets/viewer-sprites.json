@@ -1,0 +1,697 @@
+{
+  "attention": {
+    "files": [
+      "attention-hd-0.webp",
+      "attention-hd-1.webp",
+      "attention-hd-2.webp",
+      "attention-hd-3.webp",
+      "attention-hd-4.webp",
+      "attention-hd-5.webp",
+      "attention-hd-6.webp"
+    ],
+    "still": "attention-viewer-still.webp",
+    "size": 480,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "743b3d9700123654119d5ae0e92e6cee7ab0a98f2cf5919e29c9e2c8431398ad",
+    "source_canvas": [
+      2560,
+      1440
+    ],
+    "source_crop": [
+      1038,
+      392,
+      480,
+      480
+    ]
+  },
+  "bone-density": {
+    "files": [
+      "bone-density-hd-0.webp",
+      "bone-density-hd-1.webp",
+      "bone-density-hd-2.webp",
+      "bone-density-hd-3.webp",
+      "bone-density-hd-4.webp",
+      "bone-density-hd-5.webp",
+      "bone-density-hd-6.webp"
+    ],
+    "still": "bone-density-viewer-still.webp",
+    "size": 457,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "e83567c5ff5c695120f4dbac417e3edb44747d3ea399b62915f7efe08a24612a",
+    "source_canvas": [
+      2560,
+      1440
+    ],
+    "source_crop": [
+      1118,
+      540,
+      457,
+      457
+    ]
+  },
+  "brain-fog": {
+    "files": [
+      "brain-fog-hd-0.webp",
+      "brain-fog-hd-1.webp",
+      "brain-fog-hd-2.webp",
+      "brain-fog-hd-3.webp",
+      "brain-fog-hd-4.webp",
+      "brain-fog-hd-5.webp",
+      "brain-fog-hd-6.webp"
+    ],
+    "still": "brain-fog-viewer-still.webp",
+    "size": 475,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "9823db7b61d2fd8eba4d1f57d766e6619668e02c7716bd0f0513be350bcffa78",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      767,
+      207,
+      475,
+      475
+    ]
+  },
+  "closure": {
+    "files": [
+      "closure-hd-0.webp",
+      "closure-hd-1.webp",
+      "closure-hd-2.webp",
+      "closure-hd-3.webp",
+      "closure-hd-4.webp",
+      "closure-hd-5.webp",
+      "closure-hd-6.webp"
+    ],
+    "still": "closure-viewer-still.webp",
+    "size": 408,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "739e3f7181677636ec6d47951044fcac9a2971af7103b3896804b72b647f2d64",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      820,
+      252,
+      408,
+      408
+    ]
+  },
+  "connect": {
+    "files": [
+      "connect-hd-0.webp",
+      "connect-hd-1.webp",
+      "connect-hd-2.webp",
+      "connect-hd-3.webp",
+      "connect-hd-4.webp",
+      "connect-hd-5.webp",
+      "connect-hd-6.webp"
+    ],
+    "still": "connect-viewer-still.webp",
+    "size": 410,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "d762df3a688c1370d44d4573d9da9a2fe22d795a0b8668eeb37fd8829b81e996",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      784,
+      266,
+      410,
+      410
+    ]
+  },
+  "decrease": {
+    "files": [
+      "decrease-hd-0.webp",
+      "decrease-hd-1.webp",
+      "decrease-hd-2.webp",
+      "decrease-hd-3.webp",
+      "decrease-hd-4.webp",
+      "decrease-hd-5.webp",
+      "decrease-hd-6.webp"
+    ],
+    "still": "decrease-viewer-still.webp",
+    "size": 407,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "1156f1cee21e9dd4111a305f71f2ab669e2100203665db7754ed60b92328cb9e",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      826,
+      251,
+      407,
+      407
+    ]
+  },
+  "dry-up": {
+    "files": [
+      "dry-up-hd-0.webp",
+      "dry-up-hd-1.webp",
+      "dry-up-hd-2.webp",
+      "dry-up-hd-3.webp",
+      "dry-up-hd-4.webp",
+      "dry-up-hd-5.webp",
+      "dry-up-hd-6.webp"
+    ],
+    "still": "dry-up-viewer-still.webp",
+    "size": 412,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "21217d2a6dd4db376faa615b20114ef1d3b995f2de0c2d56bb07a298256831aa",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      817,
+      248,
+      412,
+      412
+    ]
+  },
+  "emotion": {
+    "files": [
+      "emotion-hd-0.webp",
+      "emotion-hd-1.webp",
+      "emotion-hd-2.webp",
+      "emotion-hd-3.webp",
+      "emotion-hd-4.webp",
+      "emotion-hd-5.webp",
+      "emotion-hd-6.webp"
+    ],
+    "still": "emotion-viewer-still.webp",
+    "size": 624,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "ad10e9435b5e2b03bc44d338869dc4c263e5a2a22ae90c7030345130614964f6",
+    "source_canvas": [
+      2560,
+      1440
+    ],
+    "source_crop": [
+      1087,
+      430,
+      624,
+      624
+    ]
+  },
+  "exclusion": {
+    "files": [
+      "exclusion-hd-0.webp",
+      "exclusion-hd-1.webp",
+      "exclusion-hd-2.webp",
+      "exclusion-hd-3.webp",
+      "exclusion-hd-4.webp",
+      "exclusion-hd-5.webp",
+      "exclusion-hd-6.webp"
+    ],
+    "still": "exclusion-viewer-still.webp",
+    "size": 416,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "b371b9d22d785756e2923b8e74cb850463d2b42b6d28ba5a5e903eb03e6865ae",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      812,
+      256,
+      416,
+      416
+    ]
+  },
+  "expansion": {
+    "files": [
+      "expansion-hd-0.webp",
+      "expansion-hd-1.webp",
+      "expansion-hd-2.webp",
+      "expansion-hd-3.webp",
+      "expansion-hd-4.webp",
+      "expansion-hd-5.webp",
+      "expansion-hd-6.webp"
+    ],
+    "still": "expansion-viewer-still.webp",
+    "size": 397,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "dfd5c954783b94ff6a28f2df023288d59ed708f4187c5d8417a98b586a1d45b5",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      826,
+      260,
+      397,
+      397
+    ]
+  },
+  "flow": {
+    "files": [
+      "flow-hd-0.webp",
+      "flow-hd-1.webp",
+      "flow-hd-2.webp",
+      "flow-hd-3.webp",
+      "flow-hd-4.webp",
+      "flow-hd-5.webp",
+      "flow-hd-6.webp"
+    ],
+    "still": "flow-viewer-still.webp",
+    "size": 410,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "0ec0f3eee81a4962624e8b928144e92c870151c75391abfcf042b7acf5e6199b",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      825,
+      259,
+      410,
+      410
+    ]
+  },
+  "fracture": {
+    "files": [
+      "fracture-hd-0.webp",
+      "fracture-hd-1.webp",
+      "fracture-hd-2.webp",
+      "fracture-hd-3.webp",
+      "fracture-hd-4.webp",
+      "fracture-hd-5.webp",
+      "fracture-hd-6.webp"
+    ],
+    "still": "fracture-viewer-still.webp",
+    "size": 402,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "2f3f0953280e1bbeca8bcc3c5836c27a20bbaee25f5e140775b4d549f522abbb",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      823,
+      252,
+      402,
+      402
+    ]
+  },
+  "head": {
+    "files": [
+      "head-hd-0.webp",
+      "head-hd-1.webp",
+      "head-hd-2.webp",
+      "head-hd-3.webp",
+      "head-hd-4.webp",
+      "head-hd-5.webp",
+      "head-hd-6.webp"
+    ],
+    "still": "head-viewer-still.webp",
+    "size": 368,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "c9392d82197edb10b6f3df9a6b3fd46a8abdc2932aa80331b3964d379618898c",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      767,
+      293,
+      368,
+      368
+    ]
+  },
+  "hot-flushes": {
+    "files": [
+      "hot-flushes-hd-0.webp",
+      "hot-flushes-hd-1.webp",
+      "hot-flushes-hd-2.webp",
+      "hot-flushes-hd-3.webp",
+      "hot-flushes-hd-4.webp",
+      "hot-flushes-hd-5.webp",
+      "hot-flushes-hd-6.webp"
+    ],
+    "still": "hot-flushes-viewer-still.webp",
+    "size": 416,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "f4d7ba7bd2f40e2f8a6768478d7c015dc8f8d9a38c728c0734dec0b17eb9a677",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      784,
+      272,
+      416,
+      416
+    ]
+  },
+  "joint": {
+    "files": [
+      "joint-hd-0.webp",
+      "joint-hd-1.webp",
+      "joint-hd-2.webp",
+      "joint-hd-3.webp",
+      "joint-hd-4.webp",
+      "joint-hd-5.webp"
+    ],
+    "still": "joint-viewer-still.webp",
+    "size": 553,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 81,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "ef2e0aa3c85fe4da10b77b9a63c21897f2bc81af91f3e2650efb7befad3f74e8",
+    "source_canvas": [
+      2560,
+      1440
+    ],
+    "source_crop": [
+      1144,
+      384,
+      553,
+      553
+    ]
+  },
+  "menstruation": {
+    "files": [
+      "menstruation-hd-0.webp",
+      "menstruation-hd-1.webp",
+      "menstruation-hd-2.webp",
+      "menstruation-hd-3.webp",
+      "menstruation-hd-4.webp",
+      "menstruation-hd-5.webp",
+      "menstruation-hd-6.webp"
+    ],
+    "still": "menstruation-viewer-still.webp",
+    "size": 443,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "90134aa54ab55f0aa27a376af9f4dc9ee176e02992ac01bea898cb0230488771",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      737,
+      281,
+      443,
+      443
+    ]
+  },
+  "mental": {
+    "files": [
+      "mental-hd-0.webp",
+      "mental-hd-1.webp",
+      "mental-hd-2.webp",
+      "mental-hd-3.webp",
+      "mental-hd-4.webp",
+      "mental-hd-5.webp",
+      "mental-hd-6.webp"
+    ],
+    "still": "mental-viewer-still.webp",
+    "size": 333,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "8475f9fdbad9a8623c82621900c6d882cf1374bbf7c9bcdee6d8014411e105a5",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      800,
+      299,
+      333,
+      333
+    ]
+  },
+  "night-sweats": {
+    "files": [
+      "night-sweats-hd-0.webp",
+      "night-sweats-hd-1.webp",
+      "night-sweats-hd-2.webp",
+      "night-sweats-hd-3.webp",
+      "night-sweats-hd-4.webp",
+      "night-sweats-hd-5.webp",
+      "night-sweats-hd-6.webp"
+    ],
+    "still": "night-sweats-viewer-still.webp",
+    "size": 412,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "f709a96fd15bf415b73d494160613c4a62ac327d43d072c1919cbb86aeb4e487",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      768,
+      266,
+      412,
+      412
+    ]
+  },
+  "rise": {
+    "files": [
+      "rise-hd-0.webp",
+      "rise-hd-1.webp",
+      "rise-hd-2.webp",
+      "rise-hd-3.webp",
+      "rise-hd-4.webp",
+      "rise-hd-5.webp",
+      "rise-hd-6.webp"
+    ],
+    "still": "rise-viewer-still.webp",
+    "size": 408,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "317be15ac7bf968f1a30de8e019e3d19262dcc48a80807512a65299610c00709",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      828,
+      256,
+      408,
+      408
+    ]
+  },
+  "sexual-desire": {
+    "files": [
+      "sexual-desire-hd-0.webp",
+      "sexual-desire-hd-1.webp",
+      "sexual-desire-hd-2.webp",
+      "sexual-desire-hd-3.webp",
+      "sexual-desire-hd-4.webp",
+      "sexual-desire-hd-5.webp",
+      "sexual-desire-hd-6.webp"
+    ],
+    "still": "sexual-desire-viewer-still.webp",
+    "size": 401,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "b56a7f3f17dcc022ded3d39444faea6115d88652d429202ab2ab73d173eabd37",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      752,
+      229,
+      401,
+      401
+    ]
+  },
+  "sleep": {
+    "files": [
+      "sleep-hd-0.webp",
+      "sleep-hd-1.webp",
+      "sleep-hd-2.webp",
+      "sleep-hd-3.webp",
+      "sleep-hd-4.webp",
+      "sleep-hd-5.webp",
+      "sleep-hd-6.webp"
+    ],
+    "still": "sleep-viewer-still.webp",
+    "size": 419,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "2ba3b299585750b5e4bc97680b04e192429ef7f17c40f752bbba31791f9b9ad4",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      759,
+      294,
+      419,
+      419
+    ]
+  },
+  "vagina": {
+    "files": [
+      "vagina-hd-0.webp",
+      "vagina-hd-1.webp",
+      "vagina-hd-2.webp",
+      "vagina-hd-3.webp",
+      "vagina-hd-4.webp",
+      "vagina-hd-5.webp",
+      "vagina-hd-6.webp"
+    ],
+    "still": "vagina-viewer-still.webp",
+    "size": 432,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "1c89a8c2ac6c415dc140129d5a58cc08ac630868a19dc92febd4cc2320a7f21e",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      718,
+      292,
+      432,
+      432
+    ]
+  },
+  "vibration": {
+    "files": [
+      "vibration-hd-0.webp",
+      "vibration-hd-1.webp",
+      "vibration-hd-2.webp",
+      "vibration-hd-3.webp",
+      "vibration-hd-4.webp",
+      "vibration-hd-5.webp",
+      "vibration-hd-6.webp"
+    ],
+    "still": "vibration-viewer-still.webp",
+    "size": 435,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "87501c1223c5a44ec7daced095733891acdbf0c5b39912291a2359796b649525",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      791,
+      246,
+      435,
+      435
+    ]
+  },
+  "weight": {
+    "files": [
+      "weight-hd-0.webp",
+      "weight-hd-1.webp",
+      "weight-hd-2.webp",
+      "weight-hd-3.webp",
+      "weight-hd-4.webp",
+      "weight-hd-5.webp",
+      "weight-hd-6.webp"
+    ],
+    "still": "weight-viewer-still.webp",
+    "size": 365,
+    "columns": 4,
+    "frames_per_page": 16,
+    "frames": 101,
+    "fps": 25,
+    "source": "uploaded-transparent-gif",
+    "source_sha256": "d92b7e8dfbbd2e63edc1df2f71490e1fceebc31a9a74450bd2b6681213e2187e",
+    "source_canvas": [
+      1920,
+      1080
+    ],
+    "source_crop": [
+      814,
+      386,
+      365,
+      365
+    ]
+  }
+}
